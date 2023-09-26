@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+            <meta charset="utf-8">
+            <meta name="keyword" content="logistic, logistics, dispatch, dispatcher, dispatch-riders, dispatch-rider, delivery, shipping, shipment, delivery-riders, delivery-rider, delivery rider, dispatch rider, delivery-bikes, delivery-bike, delivery bike, delivery bikes, delivery guy, fast and reliable delivery service,">
+            <meta name="description" content="A fast and reliable Logistic Company">
+            <meta name="author" content="Temitope Teslim">
+            <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+            <!-- bootstrap css -->
+            <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+            <!-- animate plugin -->
+            <link href="\css/animate.min.css" rel="stylesheet" type="text/css">
+            <!-- fontawesome -->
+            <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <style type="text/css">
+                .bd-placeholder-img {
+                    font-size: 1.125rem;
+                    text-anchor: middle;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    user-select: none;
+                }
+
+                @media (min-width: 768px) {
+                    .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                    }
+                    
+                }
+
+                .b-example-divider {
+                    height: 3rem;
+                    background-color: rgba(0, 0, 0, .1);
+                    border: solid rgba(0, 0, 0, .15);
+                    border-width: 1px 0;
+                    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+                }
+
+                .b-example-vr {
+                    flex-shrink: 0;
+                    width: 1.5rem;
+                    height: 100vh;
+                }
+
+                .bi {
+                    vertical-align: -.125em;
+                    fill: currentColor;
+                }
+
+                .nav-scroller {
+                    position: relative;
+                    z-index: 2;
+                    height: 2.75rem;
+                    overflow-y: hidden;
+                }
+
+                .nav-scroller .nav {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    padding-bottom: 1rem;
+                    margin-top: -1px;
+                    overflow-x: auto;
+                    text-align: center;
+                    white-space: nowrap;
+                    -webkit-overflow-scrolling: touch;
+                }
+                .dropdown{
+                    text-decoration: none;
+                }
+                .dropdown:hover > .dropdown-menu { 
+                    display: block;
+                    margin-top: 0;
+                    color: #ed4c20;
+                    }
+                .hel{
+                    background-image: url("{{url_for('static',filename='media/four.jpg.jpeg')}}");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    max-width: 100vh;
+                }
+                
+                
+                .yyy{
+                    border: 1px solid #ed4c20;
+                }
+                .yyy:hover{
+                    background-color: #ed4c20;
+                    color: white;
+                }
+                .bnb{
+                    background-color: #ed4c20; 
+                    color: white;
+                }
+                .bnb:hover{
+                    background-color: white;
+                    color: silver;
+                    border: 1px solid #ed4c20;
+                }
+                .mmm:hover{
+                    color: #ed4c20;
+                }
+                #home:hover,#fet:hover,#ser:hover,#blog:hover,#shop:hover,#con:hover,#ggf:hover,#news:hover,#partner:hover,#career:hover{
+                    color: #ed4c20;
+                }
+                .ddd{
+                    text-decoration: none; 
+                    color: lightgray;
+                }
+                .ddd:hover{
+                    color: #ed4c20;
+                }
+                .co:hover{
+                    background-color: #ed4c20;
+                    color: white;
+                }
+                .co{
+                    color: white;
+                    border: 1px solid #ed4c20;
+                }  
+
+
+                /* start dark-mode */
+				.switch {
+					position: relative;
+					display: inline-block;
+					width: 40px;
+					height: 24px;
+				}
+				/* Hide default HTML checkbox */
+				.switch input {
+					opacity: 0;
+					width: 0;
+					height: 0;
+				}
+				/* The slider */
+				.slider {
+					position: absolute;
+					cursor: pointer;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					background-color: #ccc;
+					-webkit-transition: .4s;
+					transition: .4s;
+				}
+				.slider:before {
+					position: absolute;
+					content: "";
+					height: 16px;
+					width: 16px;
+					left: 4px;
+					bottom: 4px;
+					background-color: white;
+					-webkit-transition: .4s;
+					transition: .4s;
+				}
+				input:checked + .slider {
+					background-color: grey;
+				}
+				input:focus + .slider {
+					box-shadow: 0 0 1px grey;
+				}
+				input:checked + .slider:before {
+					-webkit-transform: translateX(16px);
+					-ms-transform: translateX(16px);
+					transform: translateX(16px);
+				}
+				/* Rounded sliders */
+				.slider.round {
+					border-radius: 34px;
+				}
+				.slider.round:before {
+					border-radius: 50%;
+				}
+				.darkmd{
+					background-color: grey;
+				}
+                .darkmd2{
+                    background-color: #98a5a9;
+                }
+                /* end */
+                .cardteam{
+                    background-color: #f2f8fa;
+                }
+                .gga{
+                    width: 100%; 
+                    height: 100%;
+                    border-radius:6px ;
+                }
+                .gga:hover{
+                    opacity: 0.5;
+                }  
+                .hvvv:hover{
+                    color: #ed4c20;
+                    cursor: pointer;
+                }
+                .hvv{
+                    color: white;
+                }
+                .hvv:hover{
+                    color: #ed4c20;
+                    cursor: pointer;
+                }
+                .abtus{
+                    border: 1px solid #ed4c20;
+                    color: #ed4c20;
+                }
+                .abtus:hover{
+                    background-color: #ed4c20;
+                    color: white;
+                }
+                .bi{
+                    color: #ed4c20;
+                }
+                #scnj872i {
+                    line-height: 24px;
+                    font-size: 18px;
+                    margin-bottom: 24px;
+                    font-weight: 300;
+                }
+                .scnj8741 {
+                    font-weight: 600;
+                    line-height: 24px;
+                    font-size: 20px;
+                    margin-bottom: 12px;
+                }
+                .iconics{
+                    color: #ed4c20;
+                    margin-bottom: 20px;
+                }
+                .choose{
+                    color: white;
+                }
+                
+            </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+              <div class="container-xl">
+                <a class="navbar-brand" id="ggf" href="index.html">
+                    <img src="media/transprio.jpg" width="100">
+                </a>
+                <div class=" d-none d-md-block">
+                    <a href="#call" class="btn yyy" type="submit" style="font-size: x-small; color: #f2f8fa;">ORDER ONLINE</a>
+                </div>
+                <div class=" d-block d-md-none">
+                    <a href="contact.html" class="btn yyy" type="submit" style="font-size: x-small; color: #f2f8fa;">ORDER ONLINE</a>
+                </div>
+                <div class="">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+                
+                
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="partner" aria-current="page" href="bAr.html">Partner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="news" aria-current="page" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id="con" href="contact.html">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id="career" href="careers.html">Careers</a>
+                    </li>
+                      
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="fet" href="#" data-bs-auto-close="outside" aria-expanded="false">Features</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropend chck">
+                                <a class="dropdown-item dropdown-toggle mmm" href="#" data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item mmm" href="#">Track items</a></li>
+                                    <li><a class="dropdown-item mmm" href="terms-of-service.html">Terms of Service</a></li>
+                                    <li><a class="dropdown-item mmm" href="privacy.html">Privacy Policy</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend">
+                                <a class="dropdown-item dropdown-toggle mmm" href="#" data-bs-toggle="dropdown" aria-expanded="false">Our Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item mmm" href="about_us.html">About Us</a></li>
+                                    <!-- <li><a class="dropdown-item mmm" href="#">Gallery</a></li> -->
+                                    <li><a class="dropdown-item mmm" href="faq.html">FAQ</a></li>
+                                </ul>                              
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="ser" data-bs-auto-close="outside" aria-expanded="false">Partner</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item mmm" href="#">Partner with Bike(s)</a></li>
+                          <li><a class="dropdown-item mmm" href="bAr.html">Become a Transprio Rider</a></li>
+                        </ul>
+                    </li> -->
+
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="blog" aria-expanded="false">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item mmm" href="news.html">News</a></li>
+                            <li class="dropend">
+                            <a class="dropdown-item dropdown-toggle mmm" href="#" data-bs-toggle="dropdown" aria-expanded="false">Style</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item mmm" href="#">Style1</a></li>
+                                <li><a class="dropdown-item mmm" href="#">Style2</a></li>
+                            </ul>  
+                          </li>
+                        </ul>
+                    </li> -->
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active mmm" aria-current="page" id="shop" href="partner.html">Partner</a>
+                    </li> -->
+                    
+                    
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Track Item" aria-label="Search">
+                    <a href="" class="btn co" type="submit">Track</a>
+                  </form>
+                </div>
+                
+              </div>
+            </nav>
+        </header>
+        
+        
+
+        <main>
+            <div class="container-fluid bg-dark pic">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <!-- <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div> -->
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                        <img src="media/two.JPG" class=" w-100" alt="...">
+                        </div>
+                        <!-- <div class="carousel-item">
+                        <img src="media/one.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="media/three.jpg" class="d-block w-100" alt="...">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Welcome -->
+            <div class="container">
+                <hr class="featurette-divider">
+            
+                <div class="row">
+                    <div class="col-md-7 mt-3 px-5 px-sm-0 py-3 cardteam welcome" style="border-radius: 10px;">
+                        <div class="p-3">
+                            <h1 style="font-size: 5vh; font-weight: bolder;" class="pb-3">Welcome to Transprio Logistics Limited</h1>
+                            <hr style="width: 30px; border: 2px solid rgb(255, 2, 2);">
+                            <p class="lead pt-3 pe-5" style="font-size: small;">At Transprio Logistics, we redefine what's possible in the world of logistics. With a relentless commitment to excellence, cutting-edge technology, and a passion for delivering results, we are your trusted partner in navigating the complexities of supply chain management.</p>
+                            <a href="#" class="btn bnb" style="font-size: small; ">ORDER ONLINE</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 px-5 px-sm-1">
+                        <img src="media/bike.JPG" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+            </div>
+
+            <!-- our commitment -->
+            <div class="container-fluid pt-3 px-5 text-center" style="background-color: black; color: white;">
+                <div class="row col-xs-6 px-5 py-5">
+                    <div class="col-12 px-md-5 py-5">
+                        <h3 class="pb-2" style="color: #17293c;">Our Commitment</h3>
+                        <p class="text-2xl">We go the extra mile to ensure your cargo reaches its destination swiftly and securely. Our mission is to streamline your logistics, providing solutions that are efficient, cost-effective, and tailored to your unique needs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our Services -->
+            <div class="container">
+            
+                <hr class="featurette-divider">
+                <div>
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>WHAT WE DO</title><rect width="100%" fill="#eee"/><text x="50%" y="50%" fill="#f2f8fa" dy=".3em">OUR SERVICES</text></svg>
+                </div>
+            
+                <div class="row pb-3">
+                <div class="col-md-6 col-lg-4 order-md-2 my-3 px-5 px-md-3">
+                    <div class="px-5 px-md-0">
+                        <div class="card text-center py-5 px-4 cardteam">
+                            <div class="text-start pb-3" style="color: #ed4c20;"><p>01</p></div>
+                            <div class="text-start py-4"><h2 class="card-title" style="font-weight: 600; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">B2B Services</h2></div>
+                            <div class="text-start"><p class="card-text" style="font-size: small;">We offer business to business service, our riders carry many items, from things that could not be sent by local delivery riders means</p></div>
+                            <div class="text-start">
+                                <ul>
+                                    <li>Perishable Items</ol>
+                                    <li>Hospital Emergency Items</ol>
+                                    <li>Documents and so on...</ol>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn bnb" style="width: 20vh;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 order-md-2 my-3 px-5 px-md-3">
+                    <div class="px-5 px-md-0">
+                        <div class="card text-center p-5 cardteam">
+                            <div class="text-start pb-3" style="color: #ed4c20;"><p>02</p></div>
+                            <div class="text-start py-4"><h2 class="card-title" style="font-weight: 600; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Freight Forwarding</h2></div>
+                            <div class="text-start"><p class="card-text" style="font-size: small;">Seamlessly move your cargo across borders with our comprehensive freight forwarding services.</p></div>
+                        </div>
+                    </div>                        
+                </div>
+                <div class="col-md-6 col-lg-4 order-md-2 my-3 px-5 px-md-3">
+                    <div class="px-5 px-md-0">
+                        <div class="card text-center p-5 cardteam">
+                            <div class="text-start pb-3" style="color: #ed4c20;"><p>03</p></div>
+                            <div class="text-start py-4"><h2 class="card-title" style="font-weight: 600; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Warehousing</h2></div>
+                            <div class="text-start"><p class="card-text" style="font-size: small;">Store your goods securely in our state-of-the-art facilities, with advanced inventory management.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 order-md-2 my-3 px-5 px-md-3">
+                    <div class="px-5 px-md-0">
+                        <div class="card text-center p-5 cardteam">
+                            <div class="text-start pb-3" style="color: #ed4c20;"><p>04</p></div>
+                            <div class="text-start py-4"><h2 class="card-title" style="font-weight: 600; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Transportation</h2></div>
+                            <div class="text-start"><p class="card-text" style="font-size: small;"> From road and rail to air and sea, we offer versatile transportation solutions for any cargo.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 order-md-2 my-3 px-5 px-md-3">
+                    <div class="px-5 px-md-0">
+                        <div class="card text-center p-5 cardteam">
+                            <div class="text-start pb-3" style="color: #ed4c20;"><p>05</p></div>
+                            <div class="text-start py-4"><h2 class="card-title" style="font-weight: 600; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Customs Clearance</h2></div>
+                            <div class="text-start"><p class="card-text" style="font-size: small;">Navigate complex customs regulations effortlessly with our experienced team.</p></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+                <hr class="featurette-divider">
+                
+                
+            </div>
+
+            <!-- why choose transprio -->
+            <div class="container-fluid py-5">
+                <div class="row ps-3">
+                    <div class="col-12">
+                        <h2 class="scnj8741">Why Choose Transprio Logistics?</h2>
+                        <hr class="me-3 iconics">
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <span style="font-size: 25px;"><i class="fa-solid fa-flask iconics"></i></i></span>
+                        <h3 class="scnj8741">Expertise</h3>
+                        <p class="scnj872i">With years of industry experience, our team of logistics professionals knows the ins and outs of global supply chains.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <span style="font-size: 25px;"><i class="fa-solid fa-lightbulb iconics"></i></i></span>
+                        <h3 class="scnj8741">Innovation</h3>
+                        <p class="scnj872i">We leverage the latest technology to optimize routes, track shipments in real-time, and provide you with actionable insights.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <span style="font-size: 25px;"><i class="fa-solid fa-handshake-angle iconics"></i></span>
+                        <h3 class="scnj8741">Reliability</h3>
+                        <p class="scnj872i">Count on us for on-time deliveries, safe handling, and a commitment to the highest standards of quality.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <span style="font-size: 25px;"><i class="fa-solid fa-earth-americas iconics"></i></i></span>
+                        <h3 class="scnj8741">Global Reach</h3>
+                        <p class="scnj872i">Our extensive network spans the globe, ensuring your cargo can reach even the most remote destinations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TESTIMONIES -->
+            <div class="container-xl">
+                <hr class="featurette-divider">
+                <div class="row mb-5" style="min-height: 40vh;">
+                    <div class="col-md-6" style="background-color: #141414; background-color: #17293c;">
+                        <div class="bd-example-snippet bd-code-snippet">
+                            <div class="bd-example">
+                                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner" style="min-height: 70vh;">
+                                        <div class="carousel-item active">
+                                            <div class=" text-center p-5" >
+                                                <div class="text-start pb-3" style="color: #ed4c20; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;"><p><b>TESTIMONIALS</b></p></div>
+                                                <div class="text-start"><p class="card-text" style="font-size: x-large; color: white; font-family: sans-serif;">The employment status of the messengers is one of the UK’s biggest same-day services</p></div>
+                                                <div class="text-start pb-3" style="color: #ed4c20; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;"><p><b>Temitope Teslim</b></p></div>
+                                            </div>  
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class=" text-center p-5" >
+                                                <div class="text-start pb-3" style="color: #ed4c20; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;"><p><b>TESTIMONIALS</b></p></div>
+                                                <div class="text-start"><p class="card-text" style="font-size: x-large; color: white; font-family: sans-serif;">The employment status of the messengers is one of the UK’s biggest same-day services, The employment status of the messengers is one of the UK’s biggest same-day services</p></div>
+                                                <div class="text-start pb-3" style="color: #ed4c20; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;"><p><b>Jude Iwanke</b></p></div>
+                                            </div>  
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class=" text-center p-5" >
+                                                <div class="text-start pb-3" style="color: #ed4c20; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;"><p><b>TESTIMONIALS</b></p></div>
+                                                <div class="text-start"><p class="card-text" style="font-size: x-large; color: white; font-family: sans-serif;">The employment status of the messengers is one of the UK’s biggest same-day services</p></div>
+                                                <div class="text-start pb-3" style="color: #ed4c20; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;"><p><b>Babajide Kasali</b></p></div>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="col-md-6 px-0 mx-0" style="background-color: #f2f8fa;">
+                        <div class="px-0 mx-0 hel">
+                            <div class="mx-0 px-0">
+                                <img src="media/biking.jpg" class="w-100">
+                            </div>
+                            <div class=" pt-xl-5 ">
+                                <div class="text-start pt-5 ps-5" style="color: #ed4c20; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;"><p><b>OUR HAPPY CLIENTS</b></p></div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+            </div>
+
+            <!-- Client-Centric Approach -->
+            <div class="container-fluid pt-3 px-5 text-center" style="background-color: black; color: white;">
+                <div class="row col-xs-6 px-5 py-5">
+                    <div class="col-12 px-md-5 py-5">
+                        <h3 class="pb-2" style="color: #17293c;">Client-Centric Approach</h3>
+                        <p class="text-2xl">Your success is our priority. We believe in forging long-term partnerships, and we're dedicated to providing tailored solutions that drive your business forward.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our Team -->
+            <div class="container text-center my-5 py-5">
+                <div class="row">
+                    <div class="col-12">
+                        <hr class="featurette-divider">
+                        <div>
+                            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>WHO WE ARE</title><rect width="100%" fill="#eee"/><text x="50%" y="50%" fill="#ebeded" dy=".3em">OUR TEAM</text></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-6 col-sm-4 col-md-3 p-3 p-md-2">
+                        <div data-toggle="modal" href="#myModal14" style="border: 0px; text-decoration: none;" class="hvvv">
+                            <img src="media/five.jpeg" class="gga">
+                            <h4 class="text-start pt-2 mb-0" style="font-size: large;">Betsy Willow</h4>
+                            <p class="text-start mt-1 teamp">Secretary</p>
+                        </div>
+                        
+                        <div class="modal py-5" id="myModal14">
+                            <div class="modal-dialog modal-lg py-3 mx-0">
+                                <div class="modal-content" style="background-color: transparent; border: 0px;">
+                                    <div class="container"></div>
+                                    <div class="modal-body">
+                                        <img src="media/five.jpeg" class="w-100">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#" data-dismiss="modal" class="btn bttn" style="border: 1px solid #ed4c20;">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 p-3 p-md-2">
+                        <div data-toggle="modal" href="#myModal15" style="border: 0px; text-decoration: none;" class="hvvv">
+                            <img src="media/six.jpeg" class="gga">
+                            <h4 class="text-start pt-2 mb-0" style="font-size: large;">Elizabeth Benjamin</h4>
+                            <p class="text-start mt-1 teamp">Courier</p>
+                        </div>
+                        
+                        <div class="modal py-5" id="myModal15">
+                            <div class="modal-dialog modal-lg py-3 mx-0">
+                                <div class="modal-content" style="background-color: transparent; border: 0px;">
+                                    <div class="container"></div>
+                                    <div class="modal-body">
+                                        <img src="media/six.jpeg" class="w-100">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#" data-dismiss="modal" class="btn bttn" style="border: 1px solid #ed4c20;">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 p-3 p-md-2">
+                        <div data-toggle="modal" href="#myModal16" style="border: 0px; text-decoration: none;" class="hvvv">
+                            <img src="media/seven.jpeg" class="gga">
+                            <h4 class="text-start pt-2 mb-0" style="font-size: large;">Success Fagbenro</h4>
+                            <p class="text-start mt-1 teamp">Rider</p>
+                        </div>
+                        <div class="modal py-5" id="myModal16">
+                            <div class="modal-dialog modal-lg py-3 mx-0">
+                                <div class="modal-content" style="background-color: transparent; border: 0px;">
+                                    <div class="container"></div>
+                                    <div class="modal-body">
+                                        <img src="media/seven.jpeg" class="w-100">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#" data-dismiss="modal" class="btn bttn" style="border: 1px solid #ed4c20;">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 p-3 p-md-2">
+                        <div data-toggle="modal" href="#myModal17" style="border: 0px; text-decoration: none;" class="hvvv">
+                            <img src="media/eight.jpg" class="gga">
+                            <h4 class="text-start pt-2 mb-0" style="font-size: large;">Ire Jole</h4>
+                            <p class="text-start mt-1 teamp">Rider</p>
+                        </div>
+                        <div class="modal py-5" id="myModal17">
+                            <div class="modal-dialog modal-lg py-3 mx-0">
+                                <div class="modal-content" style="background-color: transparent; border: 0px;">
+                                    <div class="container"></div>
+                                    <div class="modal-body">
+                                        <img src="media/eight.jpg" class="w-100">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#" data-dismiss="modal" class="btn bttn" style="border: 1px solid #ed4c20;">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="about_us.html" class="btn abtus" style="width: 30vh;">More About Us</a>
+                <hr class="featurette-divider">
+            </div>
+
+            <div class="container-xl">
+                <div class="row my-5" style="background-color: #141414; color: white;">
+                    <div class="col-md-6 py-5 ps-5">
+                        <h1 style="font-size: 8vh; font-family: fantasy;">Request a Callback</h1>
+                        <hr style="width: 30px; border: 2px solid rgb(255, 2, 2);">
+                        <small>It only takes 30 seconds and then we’ll call you back, Monday to Friday, 9am-5pm. Easy.</small><br>
+                        <small>Or Contact Us at  123-45-67</small>
+                    </div>
+                    <div class="col-md-6 py-5 px-5">
+                        <form>
+                            <input type="text" placeholder="Name" class="form-control my-2">
+                            <input type="text" placeholder="Email" class="form-control my-2">
+                            <input type="text" placeholder="Phone No" class="form-control my-2">
+                            <textarea placeholder="Message*" class="form-control my-2" style="resize: none;"></textarea>
+                            <a href="" class="btn my-2 yyy" type="submit" style="font-size: small; color: white;">Send Message</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <hr class="featurette-divider">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Office Address</title><rect width="100%" fill="#eee"/><text x="50%" y="50%" fill="#f2f8fa" dy=".3em">Our Location</text></svg>
+            </div>
+
+            <!-- MAP -->
+            <div class="container-xl">
+                <div class="row mb-5">
+                    <div class="col-md-6 m-0 p-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.95613744428!2d3.3303405142044094!3d6.652359123498845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b915348c7446b%3A0x1538e4fb048da6c4!2s12%20Olorundipe%20St%2C%20Ojodu%20101232%2C%20Lagos!5e0!3m2!1sen!2sng!4v1679859897192!5m2!1sen!2sng"  height="" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                    </div>
+                    <div class="col-md-6 py-3" style="background-color: #17293c; min-height: 53vh;">
+                        <div class=" text-center ps-0">
+                            <div>
+                                <div class="text-start ps-5" style="color: #ed4c20; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;">
+                                    <p><b>FIND US</b></p>
+                                </div>
+                                <div class="text-start px-5 py-2" style="color: white;">
+                                    <small style="font-weight:300">Ready to elevate your logistics experience? Contact us today to discuss your requirements, and let Transprio Logistics be your trusted partner in optimizing your supply chain.<br><br>
+                                        Welcome aboard the future of logistics with Transprio. Your journey starts here.</small>
+                                </div>
+                                <div class="text-start px-5 py-2" style="color: white;">
+                                    <small style="font-weight:300">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-chat-dots-fill" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                            <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+                                        </svg>
+                                        12 Olorundipe St, Ojodu 101232, Lagos
+                                    </small>
+                                </div>
+                                <div class="text-start px-5 py-2" style="color: white;">
+                                    <small style="font-weight:300">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                            <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
+                                        </svg>
+                                        Monday - Friday: 10 am - 10pm Sunday: 11 am - 9pm
+                                    </small>
+                                </div>
+                                <div class="text-start px-5 py-2" style="color: white;">
+                                    <small style="font-weight:300">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                                            <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+                                            <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+                                        </svg>
+                                        support@transprio.com
+                                    </small>
+                                </div>
+                            </div>
+                            
+                            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-md-none  w-100" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+                                    <div class="carousel-caption  d-md-none">
+                                        <h5>Third slide label</h5>
+                                        <p>Some representative placeholder content for the third slide.</p>
+                                    </div> -->
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer class="container-fluid mb-0 bg-dark">
+            <h6 class="float-end mt-1"><a href="#" class="ddd">Back to top</a></h6>
+            <div class="container-fluid pb-3 pe-0">
+				<div class="row">
+					<div class="col text-end">
+						<i class="fa-solid fa-moon" style="color: #b6c8ce;"></i>
+						<span style="color: #b6c8ce;">Dark Theme</span>
+						<label class="switch">
+							<input type="checkbox" id="darkmd">
+							<span class="slider round"></span>
+						</label>
+					</div>
+				</div>
+			</div>
+            <div class="row" style="height: 12vh;" style="background-color: #17293c; color: white;">
+                <div class="col-2" style="background-color: #98a5a9;">
+                    <a href="" class=""><i class="fa-brands fa-facebook-f pt-3 px-4" style="font-size: xx-large;"></i></a>
+                </div>
+                <div class="col-2" style="background-color: #b6c8ce;">
+                    <a href="" class=""><i class="fa-brands fa-twitter pt-3 px-4" style="font-size: xx-large;"></i></a>
+                </div>
+                <div class="col-2" style="background-color: #dfe4e6;">
+                    <a href="" class=""><i class="fa-brands fa-instagram pt-3 px-4" style="font-size: xx-large;"></i></a>
+                </div>
+                <div class="col-6 d-md-none" style="background-color: #f2f8fa;">
+                </div>
+                <div class="col-md-6 d-none d-md-block" style="background-color: #ed4c20; color: white; font-size: small; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                    <p class="pt-4 ps-3" id="call"><b>CALL US TO ORDER DELIVERY &nbsp; &nbsp; &nbsp;<i class="fa-regular fa-phone"></i> &nbsp; 123-45-67</b></p>
+                </div>
+            </div>
+            <div class="mt-3 text-center text-light">
+                <hr>
+            </div>
+            <div class="row" style="color: lightgray;">
+                <div class="col-md-6 pt-md-2 pb-md-4 pt-2">
+                    <h6 class="px-3" style="font-size: small;"><a href="privacy.html" class="ddd">Privacy</a> &middot; <a href="terms-of-service.html" class="ddd">Terms of Service</a> &middot; <a href="careers.html" class="ddd">Careers</a> &middot; <a href="faq.html" class="ddd">FAQ</a> &middot; <a href="contact.html" class="ddd">Support</a></h6>
+                </div>
+                <div class="col-md-6 pt-md-2 pb-md-4 py-3 text-md-end">
+                    <h6 class="px-3" style="font-size: small;">Copyright &copy; 2023 Transpiro. All rights reserved.</h6> 
+                </div>
+            </div>
+        </footer>
+			
+
+        <!-- Modal -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+        <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery-3.6.1.min" type="text/javascript"></script> 
+        <script type="text/javascript" language="javascript">
+            $(document).ready(function(){
+                $('#darkmd').change(function(){
+						if($('#darkmd').is(':checked')){
+                            $('body').addClass('bg-dark')
+							$('main').addClass('bg-dark')
+                            $('.welcome').addClass('darkmd2')
+                            $('.card,.welcome').removeClass('cardteam')
+                            $('.card').addClass('darkmd2')
+                            $('.hvvv').addClass('hvv')
+                            $('.scnj8741').addClass('choose')
+                            $('.scnj872i').addClass('choose')
+						}
+						else{
+							$('main').removeClass('bg-dark')
+                            $('body').removeClass('bg-dark')
+                            $('.card').removeClass('darkmd2')
+                            $('.welcome').removeClass('darkmd2')
+                            $('.card,.welcome').addClass('cardteam')
+                            $('.hvvv').removeClass('hvv')
+                            $('.scnj8741').removeClass('choose')
+                            $('.scnj872i').removeClass('choose')
+						}
+					})
+                
+            })
+        </script>
+    </body>
+</html>

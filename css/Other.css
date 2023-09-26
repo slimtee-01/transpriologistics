@@ -1,0 +1,5 @@
+/*Other CSS Properties*/
+@import "main.css"; /*to import other css stylesheet*/
+body{
+	background-color: tomato !important;
+}

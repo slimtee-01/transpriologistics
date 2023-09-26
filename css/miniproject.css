@@ -1,0 +1,271 @@
+
+body{
+	border: px solid black;
+	min-height: 1500px;
+}
+#parent,#flex{
+	display: flex;
+	justify-content: space-around;
+}
+#flex{
+	display: flex;
+	justify-content: space-around;
+}
+#logo{height: 60px;
+	width: 20%;
+	border: px solid green;
+	padding: 15px 10px 0 40px;
+}
+nav{
+	height: 60px;
+	width: 78%;
+	border: px solid green;
+	text-align: right;
+	font-size: 30px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	margin-right: 15px;
+	color: black;
+
+}
+li{
+	display: inline-block;
+}
+#banner{
+	background: skyblue url("../media/pasta.jpg") top fixed;
+	background-size: cover;
+	height: 500px;
+	padding-right: 50px;
+}
+#banner2{
+	background: skyblue url("../media/flour1.jpg") top fixed;
+	background-size: cover;
+	height: 300px;
+	padding-right: 50px;
+}
+#banner3{
+	background: skyblue url("../media/grain.jpg") top fixed;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	padding-right: 50px;
+}
+#head{
+	background-color: rgba(0, 0, 0, 0.4);
+	background-size: 50px;
+	width: 20%;
+	text-align: right;
+}
+footer{
+	display: flex;
+	width: 100%;
+	height: 350px;
+	background-color: #4A4A4A;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;
+
+}
+#ft1{
+	width: 40%;
+	text-align: center;
+	margin: 100px 0 0 30px;
+}
+.ft {
+	width: 20%;
+	text-align: left;
+	margin-top: 50px;
+}
+a{
+	text-decoration: none;
+	text-align: left;
+}
+#flex1{
+	width: 40%;
+	height: 300px;
+}
+#flex2{
+	width: 60%;
+	height: 300px;
+}
+.box{
+	width: 17%;
+}
+#flex3{
+	display: flex; 
+	height: 500px; 
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.img{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+}
+.overview{
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+}
+span{
+	text-decoration: underline;
+	text-decoration-color: brown;
+}
+.abt{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+}
+.atb{
+    font-family: sans-serif;
+	font-size: 25px;
+}
+#conflex{
+	height: 850px;
+	display: flex;
+	justify-content: space-around;
+}
+.condiv{
+	width: 45%;
+}
+iframe{
+	height: 400px;
+	width: 400px;
+	border-radius: 20%;
+
+}
+#goup a{
+	width: 47px;
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	height: 20px;
+	border-radius: 20%;
+	background-color: brown;
+	color: white;
+	text-align: center;
+}
+#menu li  a:active{
+	padding: 20px;
+	color:pink; 
+}
+#menu li a:hover{
+	text-decoration: none;
+	background-color: brown;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: sans-serif;
+
+}
+span:hover{
+	background-color: brown;
+	box-shadow: 8px 7px	9px grey;
+	color: white;
+	border-radius: 5px;
+}
+span::selection{
+	background-color: orangered;
+	color: white;
+}
+p::selection{
+	background-color: orangered;
+	color: whitesmoke;
+}
+h2::selection{
+	background-color: orangered;
+	color: white;
+}
+h3::selection{
+	background-color: orangered;
+	color: white;
+}
+/*tablet devices*/
+@media screen and (max-width:768px){
+nav{
+	width: 80%;
+	text-align: center;
+	font-size: 22px;
+}
+#menu li  a:active{
+	padding: 10px;
+	color:pink;
+}
+#conflex{
+	height: 1050px;
+}
+	}
+/*	Smart phones*/
+@media screen and (max-width:480px){
+	#banner{
+		background: skyblue url("../media/pasta.jpg") top fixed;
+		background-size: contain;
+		height: 200px;
+	}
+	#banner2{
+		background: skyblue url("../media/flour1.jpg") top fixed;
+		background-size: contain;
+		height: 200px;
+	}
+	#banner3{
+		background: skyblue url("../media/grain.jpg") top fixed;
+		background-size: contain;
+		background-position: center;
+		height: 200px;
+	}
+	#logo{height: 55px;
+		width: 10%;
+	}
+	nav{
+		height: 55px;
+		width: 90%;
+		font-size: 15px;
+
+	}
+	#flex1{
+		height: 1000px;
+	}
+	#flex2{
+		height: 1000px;
+	}
+	footer{
+	height: 280px;
+	font-size: 7px;
+	}
+	.overview{
+		font-size: 30px;
+	}
+	.abt{
+		font-size: 20px;
+	}
+	.atb{
+		font-size: 15px;
+	}
+	#parent,#flex{
+		display: none;
+		justify-content: space-around;
+	}
+	iframe{
+		height: 160px;
+		width: 160px;
+		border-radius: 10%;
+	}
+	#conflex{
+	height: 1400px;
+	}
+	#goup a{
+		width: 47px;
+		position: fixed;
+		bottom: 5px;
+		left: 10px;
+		height: 20px;
+		border-radius: 20%;
+		background-color: brown;
+		color: white;
+		text-align: center;
+		}
+}
+

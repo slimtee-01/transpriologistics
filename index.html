@@ -374,8 +374,11 @@
                             <a href="#" class="btn bnb" style="font-size: small; ">ORDER ONLINE</a>
                         </div>
                     </div>
-                    <div class="col-md-5 px-5 px-sm-1">
+                    <div class="col-md-5 px-5 px-sm-1" id="comewel">
                         <img src="media/bike.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-md-5 px-5 px-sm-1" id="welcome">
+                        <img src="media/bike1.JPG" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <hr class="featurette-divider">
@@ -789,6 +792,7 @@
         <script src="js/jquery-3.6.1.min" type="text/javascript"></script> 
         <script type="text/javascript" language="javascript">
             $(document).ready(function(){
+            $('#welcome').hide()
                 $('#darkmd').change(function(){
 						if($('#darkmd').is(':checked')){
                             $('body').addClass('bg-dark')
@@ -799,6 +803,8 @@
                             $('.hvvv').addClass('hvv')
                             $('.scnj8741').addClass('choose')
                             $('.scnj872i').addClass('choose')
+                            $('#welcome').show()
+                            $('#comewel').hide()
 						}
 						else{
 							$('main').removeClass('bg-dark')
@@ -809,6 +815,8 @@
                             $('.hvvv').removeClass('hvv')
                             $('.scnj8741').removeClass('choose')
                             $('.scnj872i').removeClass('choose')
+                            $('#comewel').show()
+                            $('#welcome').hide()
 						}
 					})
                 
